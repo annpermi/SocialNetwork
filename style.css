@@ -28,40 +28,50 @@ hr {
 }
 /* header Zhamilia*/
 /*all row general*/
-ul.hdr {
+header {
+	position: sticky;
+	top: 0;
+	padding: 0;
+	margin: 0;
+}
+.hdr-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #199de5;
+  background-color:#199de5;
 }
+
 /*buttons*/
-li.hdr {
+.hdr-item {
   float: left;
-  color: white;
+  color:white;  
   padding: 12px 24px;
 }
+
 /*icons*/
-li.hdr a {
-  /* display: block; */
+.hdr-item a{
+/* display: block; */
   color: white;
-  text-align: center;
+ text-align: center;
   text-decoration: none;
 }
 /*buttons*/
-ul.hdr :hover {
+.hdr-list :hover{
   background-color: #bed3df;
 }
 /*buttons*/
-li.hdr a:hover:not(.active) {
-  background-color: #199de5;
+.hdr-item a:hover:not(.active) {
+  background-color:#199de5;
 }
-#active.hdr {
-  background-color: #076490;
+
+#active.hdr-item {
+  background-color:  #076490;
 }
-.hdr #active:hover {
+ #active:hover{
   background-color: #87959c;
 }
+
 
 /* column1 part 1 Anna */
 .box i {
