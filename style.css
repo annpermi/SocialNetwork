@@ -5,6 +5,11 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
+
+button {
+  font-family: sans-serif;
+  font-size: 15px;
+}
 /* Global */
 .wrapper {
   /* grid */
@@ -284,21 +289,65 @@ h4{
   grid-row: 6/9;
 }
 
-
-
+/* start Denis part */
 /* column3 */
+
 .container {
   text-align: center;
-  padding: 0.15px 16px;
   font-size: 15px;
   font-family: sans-serif;
 }
-.container img {
+.cntr1 img {
   width: 100%;
 }
-.container .btn {
-  background: #4caf50;
+
+.cntr1 p button:hover {
+  background-color: lightgrey;
 }
+
+.cntr2 img {
+  width: 50%;
+}
+
+.info_button {
+  width: 100%;
+  background: #DFE5E8;
+  padding: 8px 16px;
+  border: none;
+  width: 100%;
+}
+.accept {
+  color: white;
+  background: lightgreen;
+  margin: 16px 0px;
+  padding: 8px 16px;
+  border: none;
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
+}
+.decline {
+  color: white;
+  background: lightcoral;
+  margin: 16px 0px;
+  padding: 8px 16px;
+  border: none;
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
+}
+.cntr2 span button:hover {
+  background-color: lightgrey;
+}
+.cntr3 {
+  text-align: center;
+  padding: 16px 0px;
+}
+.cntr4 {
+  padding: 16px 0px;
+  font-size: 32px;
+}
+/* end Denis part */
 
 /* footer Zhamilia */
 .footer {
