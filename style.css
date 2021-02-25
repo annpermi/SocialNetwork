@@ -207,10 +207,6 @@ header {
 
 
 /* column 2 Gulnaz*/
-.card1 {
-  grid-column: 2;
-  grid-row: 1/1;
-}
 .card1 input {
   border: 1px solid #a39d9d;
   padding: 8px;
@@ -243,11 +239,7 @@ header {
 .card2 .img_1{
   padding-right:2% ;
 }
-/* 
-.card4 .img_2{
-  width: 100%;
 
-}  */
 .portfolio {
   display: flex;
   position: relative;
@@ -263,7 +255,7 @@ header {
   top:15px; 
 }
 
-h4{
+.card h4{
   margin-left: 15px;
   margin-top: 30px;
   font-weight: 400;
@@ -272,21 +264,6 @@ h4{
 
 .card a{
   display: block;
-}
-
-.card2 {
-  grid-column: 2;
-  grid-row: 2/4;
-}
-
-.card3 {
-  grid-column: 2;
-  grid-row: 4/6;
-}
-
-.card4 {
-  grid-column: 2;
-  grid-row: 6/9;
 }
 
 /* start Denis part */
