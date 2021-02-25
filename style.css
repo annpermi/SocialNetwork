@@ -226,6 +226,18 @@ li.hdr a:hover:not(.active) {
   grid-column: 3;
   grid-row: 3/5;
 }
+.accept {
+  color: white;
+  background: lightgreen;
+  margin: 16px 0px;
+  padding: 8px 16px;
+}
+.decline {
+  color: white;
+  background: lightcoral;
+  margin: 16px 0px;
+  padding: 8px 16px;
+}
 .cntr3 {
   grid-column: 3;
   grid-row: 5/6;
@@ -235,6 +247,8 @@ li.hdr a:hover:not(.active) {
 .cntr4 {
   grid-column: 3;
   grid-row: 6/7;
+  padding: 16px 0px;
+  font-size: 32px;
 }
 
 /* footer Zhamilia */
