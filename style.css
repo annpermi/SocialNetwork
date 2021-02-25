@@ -51,46 +51,46 @@ hr {
 /* header Zhamilia*/
 /*all row general*/
 header {
-	position: sticky;
-	top: 0;
-	padding: 0;
-	margin: 0;
+  position: sticky;
+  top: 0;
+  padding: 0;
+  margin: 0;
 }
 .hdr-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#199de5;
+  background-color: #199de5;
 }
 
 /*buttons*/
 .hdr-item {
   float: left;
-  color:white;  
+  color: white;
   padding: 12px 24px;
 }
 
 /*icons*/
-.hdr-item a{
-/* display: block; */
+.hdr-item a {
+  /* display: block; */
   color: white;
- text-align: center;
+  text-align: center;
   text-decoration: none;
 }
 /*buttons*/
-.hdr-list :hover{
+.hdr-list :hover {
   background-color: #bed3df;
 }
 /*buttons*/
 .hdr-item a:hover:not(.active) {
-  background-color:#199de5;
+  background-color: #199de5;
 }
 
 #active.hdr-item {
-  background-color:  #076490;
+  background-color: #076490;
 }
- #active:hover{
+#active:hover {
   background-color: #87959c;
 }
 
@@ -156,12 +156,12 @@ header {
 }
 
 /* Indi */
-  .box3 span {
+.box3 span {
   margin: 15px 0;
   background-color: #199de5;
   box-shadow: 10px 10px 20px -10px;
   color: white;
-  max-height:100px;
+  max-height: 100px;
 }
 .box3 span:first-child,
 .box3 span:nth-child(2) {
@@ -193,7 +193,7 @@ header {
   padding: 20px 0;
   background-color: #dfe5e8;
   grid-column: 1;
-  grid-row: 1/initial;
+  grid-row: 1 / initial;
 }
 .box4 span {
   color: black;
@@ -204,18 +204,15 @@ header {
   background-color: #becbd2;
 }
 
-
-
 /* column 2 Gulnaz*/
 .card1 input {
   border: 1px solid #a39d9d;
   padding: 8px;
-  margin-top: 15px; 
+  margin-top: 15px;
   width: 96%;
-
 }
 .card .btn {
-  background-color: #199de5;;
+  background-color: #199de5;
   border: none;
   color: white;
   padding: 5px 8px;
@@ -228,16 +225,17 @@ header {
   background-color: lightgrey;
   color: black;
 }
-.card .fa, .fas {
+.card .fa,
+.fas {
   margin-right: 5px;
 }
 
-.card .images{
+.card .images {
   display: flex;
 }
 
-.card2 .img_1{
-  padding-right:2% ;
+.card2 .img_1 {
+  padding-right: 2%;
 }
 
 .portfolio {
@@ -252,17 +250,17 @@ header {
   opacity: 0.6;
   position: absolute;
   right: 10px;
-  top:15px; 
+  top: 15px;
 }
 
-.card h4{
+.card h4 {
   margin-left: 15px;
   margin-top: 30px;
   font-weight: 400;
   font-size: 20px;
 }
 
-.card a{
+.card a {
   display: block;
 }
 
@@ -288,7 +286,7 @@ header {
 
 .info_button {
   width: 100%;
-  background: #DFE5E8;
+  background: #dfe5e8;
   padding: 8px 16px;
   border: none;
   width: 100%;
@@ -354,5 +352,5 @@ footer .footer-b a {
   }
   .box2 .photos {
     display: block;
-}
+  }
 }
