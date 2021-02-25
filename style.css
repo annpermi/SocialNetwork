@@ -7,7 +7,7 @@ body {
 }
 /* Global */
 .wrapper {
-  width: 90%;
+  width: 95%;
   margin: 2em auto;
   display: grid;
   grid-template-columns: 1fr 2fr 0.7fr;
@@ -21,9 +21,11 @@ body {
   padding: 1em;
   border: solid transparent;
   border-radius: 3px;
-  box-shadow: 10px 10px 20px -10px;
+  box-shadow: 10px 10px 20px -20px;
 }
-
+hr {
+  opacity: 0.5;
+}
 /* header Zhamilia*/
 /*all row general*/
 ul.hdr {
@@ -125,11 +127,11 @@ li.hdr a:hover:not(.active) {
 .photos {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 1em;
-  margin: 10px;
+  grid-gap: 0.7em;
+  margin: 15px;
 }
-.photos > img {
-  width: 130px;
+.photos img {
+  width: 100%;
 }
 
 /* Indi */
@@ -162,7 +164,6 @@ li.hdr a:hover:not(.active) {
   color: white;
   padding: 5px 8px;
   margin-top: 10px;
-  margin-left: 10px;
   margin-bottom: 10px;
   font-size: 15px;
   cursor: pointer; /*mouse pointer on hover */
@@ -184,9 +185,9 @@ li.hdr a:hover:not(.active) {
 .right {
   opacity: 0.6;
 }
-.card2 p {
+/* .card2 p {
   margin: 5px 20px;
-}
+} */
 .card a {
   display: block;
 }
