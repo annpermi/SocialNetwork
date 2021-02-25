@@ -229,6 +229,8 @@ li.hdr a:hover:not(.active) {
 .cntr3 {
   grid-column: 3;
   grid-row: 5/6;
+  text-align: center;
+  padding: 16px 0px;
 }
 .cntr4 {
   grid-column: 3;
