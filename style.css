@@ -89,7 +89,6 @@ header {
   background-color: #87959c;
 }
 
-
 /* column1 part 1 Anna */
 .box i {
   margin-right: 16px;
@@ -117,7 +116,6 @@ header {
 .box2 {
   padding: 0 0 15px 0;
 }
-
 .box2 ul {
   padding: 0;
   margin: 16px;
@@ -142,7 +140,6 @@ header {
 .box2 .btn i {
   margin-left: 10px;
 }
-
 .box2 .photos {
   display: grid;
   grid-template-columns: auto auto;
@@ -154,11 +151,55 @@ header {
 }
 
 /* Indi */
-.box3 {
+  .box3 span {
+  margin: 15px 0;
+  background-color: #199de5;
+  box-shadow: 10px 10px 20px -10px;
+  color: white;
+  max-height:100px;
+}
+.box3 span:first-child,
+.box3 span:nth-child(2) {
+  background-color: #076490;
+}
+.box3 span:nth-child(9),
+.box3 span:nth-child(10) {
+  background-color: #87959c;
+}
+.box3 span:nth-child(11),
+.box3 span:nth-child(12) {
+  background-color: #bed3df;
+}
+.box4 {
+  position: relative;
+  padding: 20px 20px;
+  background-color: gray;
+}
+.box4 span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 15px;
+  background-color: lightgray;
 }
 
 .box4 {
+  position: relative;
+  padding: 20px 0;
+  background-color: #dfe5e8;
+  grid-column: 1;
+  grid-row: 1/initial;
 }
+.box4 span {
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 15px;
+  background-color: #becbd2;
+}
+
+
 
 /* column 2 Gulnaz*/
 .card1 {
