@@ -210,14 +210,13 @@ li.hdr a:hover:not(.active) {
   grid-row: 6/9;
 }
 
-/* column3 */
+/* start Denis part */
 .container {
   text-align: center;
-  padding: 0.15px 16px;
   font-size: 15px;
   font-family: sans-serif;
 }
-.container img {
+.cntr1 img {
   width: 100%;
 }
 .cntr1 {
@@ -229,7 +228,11 @@ li.hdr a:hover:not(.active) {
   background-color: lightgrey;
 }
 
-.column3_info {
+.cntr2 img {
+  width: 50%;
+}
+
+.info_button {
   width: 100%;
   background: #DFE5E8;
   padding: 8px 16px;
@@ -275,6 +278,8 @@ li.hdr a:hover:not(.active) {
   padding: 16px 0px;
   font-size: 32px;
 }
+/* end Denis part */
+
 
 /* footer Zhamilia */
 .footer {
