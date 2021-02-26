@@ -17,7 +17,10 @@ button {
   margin: 2em auto;
   display: grid;
   grid-template-columns: 1fr 2fr 0.7fr;
-  grid-auto-rows: minmax(min-content, max-content); /* grid-auto-rows: minmax(100px, auto); */
+  grid-auto-rows: minmax(
+    min-content,
+    max-content
+  ); /* grid-auto-rows: minmax(100px, auto); */
   grid-gap: 1em;
 }
 
@@ -46,13 +49,15 @@ hr {
   opacity: 0.5;
 }
 /* header Zhamilia*/
-/*all row general*/
+/*all row general for header*/
 header {
   position: sticky;
   top: 0;
   padding: 0;
   margin: 0;
+  z-index: 10;
 }
+
 .hdr-list {
   list-style-type: none;
   margin: 0;
@@ -60,17 +65,15 @@ header {
   overflow: hidden;
   background-color: #199de5;
 }
-
 /*buttons*/
 .hdr-item {
   float: left;
   color: white;
   padding: 12px 24px;
 }
-
 /*icons*/
+/* display: block; */
 .hdr-item a {
-  /* display: block; */
   color: white;
   text-align: center;
   text-decoration: none;
@@ -83,14 +86,12 @@ header {
 .hdr-item a:hover:not(.active) {
   background-color: #199de5;
 }
-
 #active.hdr-item {
   background-color: #076490;
 }
 #active:hover {
   background-color: #87959c;
 }
-
 /* column1 part 1 Anna */
 .box i {
   margin-right: 16px;
@@ -153,61 +154,51 @@ header {
 }
 
 /* Indi */
-.box3 {
+.box3 span {
   display: inline-block;
-}
-
-.box3 p {
-  font-size: 15px;
-}
-.box3 span {
-  margin: 15px 0;
-  background-color: #199de5;
-  box-shadow: 10px 10px 20px -10px;
+  margin: 4px 0;
   color: white;
-  max-height: 100px;
-}
-.box3 span {
   padding: 3px 8px;
   font-size: 12px;
-  margin-top: 5px;
 }
 .blue {
   background-color: #076490;
-  color: white;
 }
 
 .aqua {
   background-color: #199de5;
-  color: white;
   margin-top: 10px;
 }
 
 .darkgrey {
   background-color: #9eb1bb;
+  color: black;
 }
 
 .grey {
   background-color: #becbd2;
+  color: black;
 }
 
 .lightgrey {
   background-color: #dfe5e8;
+  color: black;
 }
 
 .white {
   background-color: #fcfdfd;
+  color: black;
 }
 
 .box4 {
   position: relative;
-  padding: 20px 0;
+  padding: 20px;
   background-color: #dfe5e8;
   grid-column: 1;
   grid-row: 1 / initial;
 }
 
-.close-button{
+.close-button {
   position: absolute;
   top: 0;
   right: 0;
@@ -216,7 +207,7 @@ header {
   font-weight: bold;
 }
 
-.close-button:hover{
+.close-button:hover {
   background-color: lightpink;
 }
 
@@ -259,6 +250,7 @@ header {
 
 .card .images {
   display: flex;
+  justify-content: center;
 }
 
 .card2 .img_1 {
@@ -289,6 +281,7 @@ header {
 
 .card a {
   display: block;
+  color: black;
 }
 
 /* start Denis part */
@@ -378,6 +371,24 @@ footer .footer-b a {
     display: block;
   }
   .box2 .photos {
-    display: block;
+    grid-template-columns: auto;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .card .images {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card2 .img_1,
+  .img_2 {
+    width: 90%;
+    padding-right: 0;
+  }
+
+  .card2 .img_1 {
+    margin-bottom: 15px;
   }
 }
