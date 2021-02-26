@@ -153,13 +153,19 @@ header {
 }
 
 /* Indi */
-
 .box3 {
   display: inline-block;
 }
 
 .box3 p {
   font-size: 15px;
+}
+.box3 span {
+  margin: 15px 0;
+  background-color: #199de5;
+  box-shadow: 10px 10px 20px -10px;
+  color: white;
+  max-height: 100px;
 }
 .box3 span {
   padding: 3px 8px;
@@ -195,6 +201,10 @@ header {
 
 .box4 {
   position: relative;
+  padding: 20px 0;
+  background-color: #dfe5e8;
+  grid-column: 1;
+  grid-row: 1 / initial;
 }
 
 .close-button{
