@@ -17,10 +17,7 @@ button {
   margin: 2em auto;
   display: grid;
   grid-template-columns: 1fr 2fr 0.7fr;
-  grid-auto-rows: minmax(
-    min-content,
-    max-content
-  ); /* grid-auto-rows: minmax(100px, auto); */
+  grid-auto-rows: minmax(min-content, max-content); /* grid-auto-rows: minmax(100px, auto); */
   grid-gap: 1em;
 }
 
@@ -51,46 +48,46 @@ hr {
 /* header Zhamilia*/
 /*all row general*/
 header {
-	position: sticky;
-	top: 0;
-	padding: 0;
-	margin: 0;
+  position: sticky;
+  top: 0;
+  padding: 0;
+  margin: 0;
 }
 .hdr-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#199de5;
+  background-color: #199de5;
 }
 
 /*buttons*/
 .hdr-item {
   float: left;
-  color:white;  
+  color: white;
   padding: 12px 24px;
 }
 
 /*icons*/
-.hdr-item a{
-/* display: block; */
+.hdr-item a {
+  /* display: block; */
   color: white;
- text-align: center;
+  text-align: center;
   text-decoration: none;
 }
 /*buttons*/
-.hdr-list :hover{
+.hdr-list :hover {
   background-color: #bed3df;
 }
 /*buttons*/
 .hdr-item a:hover:not(.active) {
-  background-color:#199de5;
+  background-color: #199de5;
 }
 
 #active.hdr-item {
-  background-color:  #076490;
+  background-color: #076490;
 }
- #active:hover{
+#active:hover {
   background-color: #87959c;
 }
 
@@ -156,66 +153,83 @@ header {
 }
 
 /* Indi */
-  .box3 span {
-  margin: 15px 0;
-  background-color: #199de5;
-  box-shadow: 10px 10px 20px -10px;
-  color: white;
-  max-height:100px;
-}
-.box3 span:first-child,
-.box3 span:nth-child(2) {
-  background-color: #076490;
-}
-.box3 span:nth-child(9),
-.box3 span:nth-child(10) {
-  background-color: #87959c;
-}
-.box3 span:nth-child(11),
-.box3 span:nth-child(12) {
-  background-color: #bed3df;
-}
-.box4 {
-  position: relative;
-  padding: 20px 20px;
-  background-color: gray;
-}
-.box4 span {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 10px 15px;
-  background-color: lightgray;
+
+.box3 {
+  display: inline-block;
 }
 
-.box4 {
-  position: relative;
-  padding: 20px 0;
-  background-color: #dfe5e8;
-  grid-column: 1;
-  grid-row: 1/initial;
+.box3 p {
+  font-size: 15px;
 }
-.box4 span {
-  color: black;
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 10px 15px;
+.box3 span {
+  padding: 3px 8px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.blue {
+  background-color: #076490;
+  color: white;
+}
+
+.aqua {
+  background-color: #199de5;
+  color: white;
+  margin-top: 10px;
+}
+
+.darkgrey {
+  background-color: #9eb1bb;
+}
+
+.grey {
   background-color: #becbd2;
 }
 
+.lightgrey {
+  background-color: #dfe5e8;
+}
 
+.white {
+  background-color: #fcfdfd;
+}
+
+.box4 {
+  position: relative;
+}
+
+.close-button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #becbd2;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+.close-button:hover{
+  background-color: lightpink;
+}
+
+.box4 h4 {
+  margin-top: 0;
+}
+.box4 p {
+  padding: 0;
+}
+
+.box4 {
+  background-color: #dfe5e8;
+}
 
 /* column 2 Gulnaz*/
 .card1 input {
   border: 1px solid #a39d9d;
   padding: 8px;
-  margin-top: 15px; 
+  margin-top: 15px;
   width: 96%;
-
 }
 .card .btn {
-  background-color: #199de5;;
+  background-color: #199de5;
   border: none;
   color: white;
   padding: 5px 8px;
@@ -228,16 +242,17 @@ header {
   background-color: lightgrey;
   color: black;
 }
-.card .fa, .fas {
+.card .fa,
+.fas {
   margin-right: 5px;
 }
 
-.card .images{
+.card .images {
   display: flex;
 }
 
-.card2 .img_1{
-  padding-right:2% ;
+.card2 .img_1 {
+  padding-right: 2%;
 }
 
 .portfolio {
@@ -252,17 +267,17 @@ header {
   opacity: 0.6;
   position: absolute;
   right: 10px;
-  top:15px; 
+  top: 15px;
 }
 
-.card h4{
+.card h4 {
   margin-left: 15px;
   margin-top: 30px;
   font-weight: 400;
   font-size: 20px;
 }
 
-.card a{
+.card a {
   display: block;
 }
 
@@ -288,7 +303,7 @@ header {
 
 .info_button {
   width: 100%;
-  background: #DFE5E8;
+  background: #dfe5e8;
   padding: 8px 16px;
   border: none;
   width: 100%;
@@ -354,5 +369,5 @@ footer .footer-b a {
   }
   .box2 .photos {
     display: block;
-}
+  }
 }
