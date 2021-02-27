@@ -242,7 +242,7 @@ header li:hover {
   font-size: 15px;
   cursor: pointer; /*mouse pointer on hover */
 }
-.card1 button:hover {
+.card button:hover {
   background-color: lightgrey;
   color: black;
 }
