@@ -93,6 +93,9 @@ header li:hover {
   color: black;
 }
 
+header a:hover {
+  color: black;
+}
 
 /* column1 part 1 Anna */
 .box i {
