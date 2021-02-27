@@ -12,15 +12,12 @@
 </head>
 
 <body>
-    <div class="container-fluid"></div>
-    <header class="hdr-container">
-        <ul class="hdr-list">
-            <li class="hdr-item" id="active">
-                <i class="fas fa-home"></i> Seytech
-            </li>
-            <li class="hdr-item"><a href="#news"><i class="fas fa-globe-americas"></i></a></li>
-            <li class="hdr-item"><a href="#contact"><i class="fas fa-user-alt"></i></a></li>
-            <li class="hdr-item"><a href="#about"><i class="fas fa-envelope"></i></a></li>
+    <header>
+        <ul>
+            <li id="seytech" title="Seytech"><i class="fas fa-home"></i> Seytech</li>
+            <li title="news"><i class="fas fa-globe-americas"></i></li>
+            <li title="contact"><i class="fas fa-user-alt"></i></li>
+            <li title="about"><i class="fas fa-envelope"></i></li>
         </ul>
     </header>
     <div class="wrapper">
@@ -28,7 +25,7 @@
             <div class="box box1">
                 <h4>My profile</h4>
                 <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHQKH7-HZzwbA/profile-displayphoto-shrink_400_400/0/1612480976274?e=1619654400&v=beta&t=Q_OQPvYWiczTk3iAttF0By45xZh26-GdeY6P04iJJ6s"
-                    alt="">
+                    alt="Profile Picture">
                 <hr>
                 <p><i class="far fa-user"></i>Software Engineer</p>
                 <p><i class="fas fa-house-user"></i>Boston, MA</p>
@@ -37,11 +34,11 @@
             <div class="box box2">
                 <button class="btn"><i class="fas fa-users"></i>My Groups</button>
                 <ul>
-                    <li>Anna Perminova</li>
-                    <li>Indiana Alymbekova</li>
-                    <li>Gulnaz Abdykadyrova</li>
-                    <li>Zhamilia Begalieva</li>
-                    <li>Denis Rykov</li>
+                    <li><a target="_blank" href="https://github.com/annpermi">Anna Perminova</a></li>
+                    <li><a target="_blank" href="https://github.com/idealindiana">Indiana Alymbekova</a></li>
+                    <li><a target="_blank" href="https://github.com/gulnazabdykadyrova">Gulnaz Abdykadyrova</a></li>
+                    <li><a target="_blank" href="https://github.com/zhamiliab">Zhamilia Begalieva</a></li>
+                    <li><a target="_blank" href="https://github.com/DenisRykov">Denis Rykov</a></li>
                 </ul>
                 <button class="btn"><i class="far fa-calendar-check"></i>My Events</button>
                 <ul>
@@ -146,8 +143,10 @@
                 <p>Friend Request:</p>
                 <img src="https://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg" alt="The Chosen One">
                 <p>Darth Vader</p>
-                <span><button class="accept" title="Accept"><i class="fas fa-check"></i></button></span>
-                <span><button class="decline" title="Decline"><i class="fas fa-times"></i></button></span>
+                <div class="btn">
+                    <button class="accept" title="Accept"><i class="fas fa-check"></i></button>
+                    <button class="decline" title="Decline"><i class="fas fa-times"></i></button>
+                </div>
             </div>
 
             <div class="container cntr3">
