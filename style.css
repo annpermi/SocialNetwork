@@ -48,12 +48,12 @@ button {
   box-shadow: 10px 10px 20px -20px;
   margin-bottom: 1em;
 }
+
 hr {
   opacity: 0.5;
 }
 
 /* header Zhamilia*/
-
 header {
   position: sticky;
   top: 0;
@@ -80,6 +80,7 @@ header li {
 header a {
   color: white;
 }
+
 #seytech {
   background-color: #076490;
   padding: 20px 25px;
@@ -88,12 +89,9 @@ header a {
   background-color: #87959c;
 }
 
-header li:hover {
+header li:hover,
+a:hover {
   background-color: #f5f7f8;
-  color: black;
-}
-
-header a:hover {
   color: black;
 }
 
@@ -356,10 +354,6 @@ header a:hover {
 
 /* footer Zhamilia */
 .footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   color: white;
   text-align: left;
 }
